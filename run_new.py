@@ -49,8 +49,8 @@ pw = driver2.find_element(By.NAME, 'pw')
 # GitHub Action을 사용하지 않을 경우, 아래와 같이 변경 해주어야 합니다.
 # input_id = 네이버ID
 # input_pw = 패스워드
-input_id = kananbis
-input_pw = '7990Sonson'
+input_id = os.getenv("USERNAME","kananbis")
+input_pw = os.getenv("PASSWORD","7990Sonson")
 
 # ID input 클릭
 username.click()
