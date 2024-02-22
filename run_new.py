@@ -50,7 +50,7 @@ pw = driver2.find_element(By.NAME, 'pw')
 # input_id = 네이버ID
 # input_pw = 패스워드
 input_id = kananbis
-input_pw = 2412!!Sonson
+input_pw = 7990Sonson
 
 # ID input 클릭
 username.click()
